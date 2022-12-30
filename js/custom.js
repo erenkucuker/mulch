@@ -19,7 +19,7 @@ document.getElementById("calculate-button").addEventListener("click", function()
   var threeCubicFootBags = volume / 3;
 
   // Display results
-  document.getElementById("result-2cf-bags").innerHTML = twoCubicFootBags.toFixed(1);
-  document.getElementById("result-3cf-bags").innerHTML = threeCubicFootBags.toFixed(1);
+  document.getElementById("result-2cf-bags").innerHTML = twoCubicFootBags.toFixed(3);
+  document.getElementById("result-3cf-bags").innerHTML = threeCubicFootBags.toFixed(3);
   document.getElementById("result-cubic-yards").innerHTML = cubicYards.toFixed(3);
 });
